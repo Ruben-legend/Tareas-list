@@ -1,0 +1,17 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: tarea-list
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_USER: ruben
+      MYSQL_PASSWORD: ruben
+    # (this is just an example, not intended to be a production configuration)
+    ports:
+      - 3306
+

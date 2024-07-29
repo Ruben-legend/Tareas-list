@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TareaListApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TareaListApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(TareaListApplication.class, args);
+  }
 
 }
